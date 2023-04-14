@@ -1,0 +1,24 @@
+.navbar {
+    background-color:rgba(43, 47, 51, 255);
+    height: 97vh;
+    width: 12vw;
+    color:white;
+    padding: 1rem;
+    /* border-radius: 20px 0 0 20px; */
+    /* border: 2px solid red; */
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 70%
+}
+li{
+    list-style: none;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

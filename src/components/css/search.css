@@ -1,0 +1,37 @@
+.searchBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#searchIcon{
+    font-size: larger;
+}
+#searchBar{
+    outline: none;
+    border:none;
+    /* width:60vw; */
+    height: 2.5rem;
+    background-color: #2b2f33;
+    color:white;
+    letter-spacing: 1px;
+    /* setting flex-grow to 1 extent its lenght to cover rest of the space  */
+    flex-grow: 1; 
+    /* border:2px solid red; */
+    padding: 0 .4rem;
+    margin:0 1rem;
+}
+#searchBar::placeholder{
+    font-size: larger;
+}
+
+.deleteBtn{
+    cursor: pointer;
+    background: none;
+    color:white;
+    outline:0;
+    border:0;
+}
+.deleteBtn:hover{
+    color:rgb(168, 63, 63);
+}
