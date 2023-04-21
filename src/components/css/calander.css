@@ -1,0 +1,33 @@
+
+
+/* Header styles */
+.calendar{
+    height:100%;
+    width: 100%;
+    /* background-color: rgb(54, 138, 212); */
+    display: flex;
+    justify-content:first baseline;
+    align-items: center;
+    flex-direction: column;
+}
+.header {
+    /* background-color: #e04d4d;
+    border: 2px solid red; */
+    width: 100%;
+    align-self: flex-start;
+    /* padding: 10px; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.weekdays{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 100%;
+    justify-content: space-around;
+}
+.days{
+    width: 100%;
+    padding-left: 1.7rem;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
-import CreateTask from './task/CreateTask';
-import TaskList from './task/TaskList'
-import TaskFooter from './task/TaskFooter';
+import CreateTask from './taskFolder/CreateTask';
+import TaskList from './taskFolder/TaskList'
+import TaskFooter from './taskFolder/TaskFooter';
 
 
 function Task({ listItems, setlist}) {
@@ -11,7 +11,7 @@ function Task({ listItems, setlist}) {
     return (
         <div>
             <CreateTask listItems={listItems} setlist={setlist} setfilteredList={setfilteredList} />
-            <TaskList listItems={listItems} setlist={setlist} test={"hello"}
+            <TaskList listItems={listItems} setlist={setlist}
                 filteredList={filteredList} setfilteredList={setfilteredList} />
             <TaskFooter listItems={listItems} setlist={setlist}
                 filteredList={filteredList} setfilteredList={setfilteredList} />

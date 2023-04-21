@@ -130,8 +130,7 @@ input:checked {
     justify-content: space-between;
     align-items: center;
     padding: 1rem .5rem;
-    width: 70vw;
-    max-width: 600px;
+    width: 100%;
     min-width: 300px;
     border-radius: 0 0 6px 6px;
 }
@@ -149,7 +148,6 @@ input:checked {
 .types:hover {
     color: rgb(255, 255, 255);
 }
-
 @media screen and (max-width:478px) {
     .Todo-app {
         min-height: 125vh;
